@@ -1,0 +1,60 @@
+.infoIngredients{
+    padding: 50px 0;
+}
+
+.title {
+    color: #fff;
+    display: flex;
+    gap: 21%;
+    margin-bottom: 40px;
+}
+.images {
+    display: flex;
+    gap: 30px;
+}
+.first_img {
+    width: 418px;
+    height: 418px;
+}
+.first_img a {
+    color: #fff;
+    text-decoration: none;
+}
+.first_img img,.second_item img {
+    width: 100%;
+    height: 100%;
+}
+.second_img{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+.second_item {
+    width: 195px;
+    height: 195px;
+    text-align: center;
+    color: #d57d1f;
+    cursor: pointer;
+}
+.second_item p:hover {
+    color: #fb9e3b;
+}
+
+.instructions {
+    margin-top: 50px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instructions h3 {
+    margin-bottom: 10px;
+}
+.instructions p{
+    width: 50%;
+    line-height: 24px;
+}

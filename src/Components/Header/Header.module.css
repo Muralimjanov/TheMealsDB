@@ -1,0 +1,20 @@
+.navbar {
+    background: #23180d;
+    padding: 15px 0;
+}
+.navbar_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form_control{
+    display: flex;
+}
+.form_control input{
+    height: 40px;
+    width: 250px;
+    font-size: calc(1.4vw);
+}
+.form_control button{
+    display: none;
+}

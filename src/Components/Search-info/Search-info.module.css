@@ -1,0 +1,39 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 30px 0;
+}
+.meal_content{
+    width: 280px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.images {
+    width: 249px;
+    height: 249px;
+}
+.images img {
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.meal_content p {
+    color: #d57d1f;
+    cursor: pointer;
+}
+.meal_content p:hover {
+    color: #fb9e3b;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,118 @@
+.home_search {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.home_search form {
+    display: flex;
+}
+.home_search input {
+    height: 35px;
+    width: 350px;
+    border-radius: 5px 0 0 5px;
+    border-left: none;
+    font-size: 22px;
+    outline: none;
+}
+.home_search button {
+    height: 35px;
+    width: 50px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/*? meal-item */
+
+.meal_item {
+    padding: 30px 0;
+}
+.meal_item h3 {
+    color: #ededed;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+.meal_item_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}   
+
+/* ? popular */
+.popular {
+    color: #fff;
+    padding: 30px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.popular h3 {
+    text-align: center;
+}
+.popular_ingredients {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ? random Meals */
+.random_meals{
+    padding: 0 0 30px 0;
+}
+.random_content h3 {
+    text-align: center;
+    color: #fff;
+    margin: 30px 0 20px 0;
+}
+.random_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*? random_ingredients */
+.random_ingredients_title {
+    padding: 30px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.random_ingredients_title h3{
+    text-align: center;
+    color: #fff;
+}   
+
+.random_ingredients {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* ? country meals */
+.country {
+    padding-bottom: 50px;
+}
+.country h3 {
+    padding: 30px 0 20px 0;
+    text-align: center;
+    color: #fff;
+}
+.country_meals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 11px;
+}
+.flags {
+    width: 74px;
+    height: 74px;
+}
+.flags img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.alfavit h3 {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
